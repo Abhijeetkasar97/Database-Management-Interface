@@ -5,7 +5,6 @@ function CheckDatabase() {
   const [dbName, setDbName] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-
   const checkDatabase = async () => {
     setMessage("");
     setError("");
